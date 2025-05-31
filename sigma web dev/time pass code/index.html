@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+        body {
+            background-color: beige;
+            padding: 45px;
+            display: flex;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .card {
+            background-color: white;
+    width: 223px;
+    height: 366px;
+    border-radius: 7px;
+    padding: 2px;
+    margin: 4px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 28px;
+    padding: 6px 16px;
+    margin: -1px;
+        }
+
+        .content p {
+            font-size: 13px;
+            color: gray;
+            font-family: 'Poppins', sans-serif;
+            margin: -8px;
+            padding: 7px;
+        }
+
+        .capsules {
+            padding: 1px 35px;
+            color: grey;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            padding: 1px 6px;
+            border-radius: 8px;
+            font-family: 'Baloo 2', sans-serif;
+            font-size: small;
+            color: gray;
+           
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 3px;
+            background-color: beige;
+            border-radius: 9px;
+            padding:0px 6px;
+          font-size: 15px;
+          color: rgb(178, 178, 2);
+          font-weight: bolder;
+          border: none;
+          cursor: pointer;
+
+        }
+        .button button:hover{
+            background-color: rgb(145, 145, 2);
+            color: azure;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="188px" src="car.png" alt="">
+            <div class="capsules">
+                <span>Sports</span> <span>Drift</span>
+            </div>
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias delectus perferendis nisi inventore
+                    ut laborum, excepturi quaerat nulla magnam et commodi sunt suscipit mollitia porro!</p>
+            </div>
+        </div>
+        <div class="button">
+         <button> Read more</button>
+        </div>
+    </div>
+   
+</body>
+
+</html>
